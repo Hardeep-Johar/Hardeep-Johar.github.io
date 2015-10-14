@@ -4,12 +4,294 @@
     <meta charset="UTF-8">
     <title>Syllabus: Programming in Python: Spring 2016</title>
     <style>
+        nav {
+            width: 150px;
+            float: left;
+            display: inline;
+            margin: 0;
+            padding: 0;
+            margin-right: 10px;
+        }
         #center {
             text-align: center;
+        }
+        h2 {
+            color:darkorchid;
+        }
+        div.floating-menu {position:fixed;
+            background:#fff4c8;padding:5px;;width:150px;z-index:100;
+            font-family: cursive;
+            font-size: larger;
+        }
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.5em;}
+        div.section {
+            margin-left: 200px;
+        }
+        p {
+            font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+            font-size: large;
         }
     </style>
 </head>
 <body>
-<h1 id="center">Programming in Python: Spring 2016</h1>
+<div class="floating-menu">
+<nav>
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="#objectives">Objectives</a></li>
+        <li><a href="#expectations">Expectations</a></li>
+        <li><a href="#scope">Scope</a></li>
+        <li><a href="#grading">Evaluation</a></li>
+        <li><a href="#computers">Computers</a></li>
+        <li><a href="#texts">Texts</a></li>
+        <li><a href="#online">Online resources</a></li>
+    </ul>
+</nav>
+    </div>
+<section name="main">
+    <h1 id="center" style="color: darkorchid">Programming in Python: Spring 2016</h1>
+    <a name="objectives">
+        <div class="section">
+            <h2>Course objectives</h2>
+            <p>
+                The goal of this class is to give you a working knowledge
+                of how to write computer programs, to get data from the web,
+                and to build your own web applications. We'll learn the basic
+                elements of programming through the language **Python**.
+                At the end of this class, you can expect to be fairly proficient
+                in using Python to build applications, understand enough about
+                programming to be able to quickly pick up other languages
+                (particularly scripting languages such as JavaScript, Ruby or Perl),
+                and have a good understanding of what it takes to plan, analyze,
+                design, implement and support software applications. We'll tour
+                **Python libraries for data analysis** and, finally, we’ll put all
+                these components together to learn how to **crawl the web for data** and
+                to **build web apps**.
+            </p>
+            <p>
+                Your reward, at the end of the course (assuming you do
+                everything seriously!) will be substantial. You’ll understand
+                how computer applications  - large scale ones or small scale
+                ones - work and you’ll be able to build working prototypes
+                to illustrate and market your own ideas. But, be aware that
+                this is an intensive course that will require a lot of work
+                and a substantial time commitment.
+            </p>
+        </div>
+    </a>
+    <a name="expectations">
+        <div class="section">
+            <h2>Expectations</h2>
+            <p>
+                <b>What you can expect from me. </b>
+            </p>
+            <p>
+            <ul>
+               <li>That I will treat every student with respect and
+                   consideration.
+               </li>
+                <li>That I will answer every question (email, nyu classes,
+                    in class, office hours) in a timely fashion.
+                </li>
+                <li>
+                    That I will be there for you to help you take your
+                    project work as far as is possible.
+
+                </li>
+
+
+            </ul>
+            </p>
+            <p>
+            <b>What I expect from you</b>
+            </p>
+            <ul>
+                <li>
+                   That you complete all course work in time.
+                </li>
+                <li>
+                    That you arrive in class and be in your seat
+                    by the start of the class.
+                </li>
+                <li>
+                    That you don’t hesitate to ask for help from
+                    me or from the Teaching Assistant.
+                </li>
+                <li>
+                    That you understand that this is a difficult
+                    class and that the demands on your time will likely
+                    be more than that in your other classes.
+
+                </li>
+                <li>
+                    That, above all, you remember that the goal is to
+                    learn and to enjoy the process of learning.
+
+                </li>
+            </ul>
+
+
+
+
+       </div>
+    </a>
+    <a name="scope">
+        <div class="section">
+            <h2>Scope of the course</h2>
+            <p>
+                <b>Python and Django</b>. Designed (by Guido van Rossum)
+                to be simple, readable, and uncomplicated, Python is about
+                as intuitive as a programming language can get. Django is a
+                web-framework, software that is designed to make the development
+                and maintenance of a website as painless as possible. Django is
+                written in Python for Python and runs on most web servers.
+                With Python and Django you can prototype your web app ‘off-server’
+                and then,
+                once you’ve tested it, easily port it to a web server.
+            </p>
+            <p>
+                <b>Python2 vs. Python3</b>. Unfortunately, there are two
+                versions of Python and they aren't fully compatible. We'll be
+                using Python3 (current version: 3.4.2) mainly because
+                Python2 is slated to go away (though, in the open source world,
+                that doesn't mean a whole lot!)
+                but also because it is a better language.
+            </p>
+            <p>
+                <b>HTML, CSS, and JavaScript</b>. HTML is a markup language.
+                Pieces of text are ‘tagged’ (bold, headings, list elements,
+                buttons, forms) and these tags are interpreted by the
+                browser when it renders a web page. CSS is a style sheet
+                language that integrates with HTML to create a common 'look and
+                feel’ for a website (CSS is what gives all Stern pages
+                the same look). JavaScript is a programming language
+                much used on websites (because client computers can run
+                javascript programs). We won’t have the time to cover
+                JavaScript but you will have the tools and knowledge to
+                pick it up quickly if necessary.
+            </p>
+        </div>
+    </a>
+    <a name="grading">
+        <div class="section">
+            <h2>Evaluation and learning components</h2>
+            <p>
+            <b>Mini Quizzes</b>: We’ll have several, very short, quizzes
+                mainly to reinforce points made in class and also to
+                help you get your hands dirty. Most quizzes will be
+                online 'do whenever you have the time', though some may
+                be in-class. All quizzes are open book and you're welcome to
+                check your solutions on your computers. Quizzes will be lightly
+                graded so make a good faith effort and you’ll do fine.
+                One or two quiz scores will be dropped in computing your
+                quiz grade so no worries if you mess one up.
+            </p>
+            <p>
+                <b>Home assignments</b>: We’ll have a few home assignments as
+                well. Like the
+                quizzes, assignments are not meant to be
+                diagnostic but rather to help you practice and learn so
+                they will be very (very!) lightly graded. You can consult
+                with others, ask me questions, use google for help, but do
+                try them on your own first.  Because I’ll either discuss
+                the solution in class or put it up on the course site,
+                late submissions will not be accepted (sorry!).
+            </p>
+            <p>
+                <b>Project</b>: There is no better way to learn something than
+                to go out and use it so start thinking about a web application
+                that you think you’d like to build. The expectation is that
+                you use the material we’ll cover in this class to plan,
+                design, and implement a small web application. Your project
+                grade will depend on how well your work illustrates your
+                understanding of the course material. Final submission will
+                include a design report, Python code, and an in-class
+                "speed-date" presentation and demonstration.
+            </p>
+            <p>
+                <b>Participation</b>: Demonstrate engagement in the course by
+                asking questions. Preferably in the “Forums” section of the
+                class website on NYU Classes. I'll respond to every question,
+                either online or, if the response is of general interest, in
+                the classroom.  Some classes have mandatory attendance (I'll
+                let you know which ones).
+            </p>
+            <p>
+                <b>Exam</b>: The course has one in-class exam toward the end
+                of the semester. The exam will be a short “in-class” closed book,
+                and closed computer exam though you are welcome to bring in a one
+                page cheat sheet.
+
+            </p>
+        </div>
+    </a>
+    <a name="computers">
+        <div class="section">
+            <h2>Computers and the class</h2>
+            <p>
+                Computers are a requirement for this course and you are
+                expected to bring one for every class. We'll do a lot of
+                programming - the best way to learn is to see something in
+                action and Python is an especially good language for making
+                things happen. Make sure that your laptops have sufficient
+                charge for the duration of the class!
+            </p>
+            <p>
+
+                <b>Mac vs Windows</b>: Either is fine but, if you have the
+                choice, then please use a Mac. It is much easier to install
+                needed libraries on a Mac than it is on a Windows machine. In
+                particular, if you have a Mac and are using some sort of
+                Windows emulator then please use Mac OS-X and not the
+                Windows emulator for the work you do in this class. The
+                double redirection will make everything a lot slower. But,
+                either Mac or Windows will work so don’t worry if you’re a
+                Windows user.
+            </p>
+
+        </div>
+    </a>
+    <a name="texts">
+        <div class="section">
+            <h2>Texts</h2>
+            <p>
+               There is no required text for this class because,
+                unfortunately, most books are designed for people who want
+                to become computer programmers. However, I strongly suggest
+                that you purchase the Mark Lutz book below so that you have
+                something to read and work with outside the class. In the class,
+                our focus is on usability and therefore we’ll use a mix of
+                online resources, class slides and notes, and sample programs as
+                a substitute for formal texts. The internet is an almost endless
+                resource with excellent tutorials on almost everything and
+                answers to practically every question you might have and I’ll
+                point you to these resources as we move along the course.
+
+            </p>
+            <ul>
+                <li>
+                   <a href="http://proquest.safaribooksonline.com/book/programming/python/9781449355722">
+                    Learning Python, 5th Edition Powerful Object-Oriented
+                Programming</a>, Mark Lutz. O'Reilly Media, 2013. No one can
+                call this 1600 page tome a lightweight, and it isn’t.
+                Easily the best book to keep around when you want to delve
+                deeper into the language.
+                </li>
+                <li>
+                  <a href="http://www.amazon.com/Programming-Fundamentals-Undergraduate-Computer-Science/dp/1447166418/ref=dp_ob_title_bk">
+                      Python Programming Fundamentals</a>,
+                    Kent D. Lee. Springer-Verlag, 2015.
+                    This is a slimer book but it covers most of what we need.
+                </li>
+                <li>
+                    <a href="https://books.google.com/books?id=aJQILlLxRmAC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">
+                        Python Programming: An Introduction to Computer Science</a>,
+                        John Zelle. Franklin, Beedle & Associates, 2010.
+                </li>
+
+                </ul>
+        </div>
+    </a>
+</section>
 </body>
 </html>
