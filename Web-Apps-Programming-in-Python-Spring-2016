@@ -39,7 +39,7 @@
         <center><nav>
             <ul>
                 <li><a href="content">Content</a></li>
-                <li><a href="syllabus-detail">Syllabus</a></li>
+                <li><a href="webapps-syllabus-detail">Syllabus</a></li>
                 <li><a href="mailto:hj2203@columbia.edu">Contact</a></li>
             </ul>
         </nav>
@@ -57,10 +57,9 @@
 
 Frankly, everyone! We live in an information age, surrounded by data and with computer programs popping up 
 around us all the time. If you want to move effectively through this information space you need to understand 
-what programming is all about. By the end of this class you will not only be able to talk to the computer 
-geeks you have to deal with at work, but you will also be able to design and build prototype applications. 
-If, while gazing at your smartphone or surfing the web, you have ever thought "why hasn't someone done that, 
-you'll have the tools to make it happen!
+what programming is all about. You need to know what is possible with computers, you need to be able to communicate effectively
+with the IT people who work for you, and you need to be able to demonstrate the usefulness of your own ideas by building
+prototype applications. This class will give you the tools to make all this possible. 
 <p>
 <h3 style="color:darkorchid">No programming background necessary!</h3>
 <p>
