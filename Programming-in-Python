@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-68864040-1', 'auto');
+  ga('send', 'pageview');
+</script>
+		<title>Programming in Python: INFO-GB.2335</title>
+	<style>
+        h1 {
+            color: darkorchid;
+            text-align: center;
+        }
+	h2 {
+		color: darkorchid;
+	}
+    nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+        display: inline-block;
+        list-style-type: none;
+    }
+    nav > ul > li > a {
+        color: #aaa;
+        background-color: white;
+        display: compact;
+        line-height: 2em;
+        padding: 0.5em 0.5em;
+        text-decoration: none;
+    }
+	</style>
+</head>
+	<body style="background-color:white"><font color="black">
+
+		<h1 style="color:darkorchid">Programming in Python: Spring 2016</h1>
+        <center><nav>
+            <ul>
+                <li><a href="content">Content</a></li>
+                <li><a href="syllabus-detail">Syllabus</a></li>
+                <li><a href="mailto:hjohar@stern.nyu.edu">Contact</a></li>
+            </ul>
+        </nav>
+            </center>
+	<h2>What we will cover</h2>
+	
+		<ul>
+			<li><b>Python</b>: A realtively easy but powerful programming language</li>
+			<li><b>Web scraping</b>: Gathering data from web pages (using Python)</li>
+			<li><b>Databases</b>: Learning the <b>very basics</b> of querying databases</li>
+			<li><b>Data analysis</b>: Using python for data analysis</li>
+			<li><b>Web app construction</b>: Using python to build a server side web application</li>
+		</ul>
+		
+		<h2>Who should take this course</h2>
+
+Frankly, everyone! We live in an information age, surrounded by data and with computer programs popping up 
+around us all the time. If you want to move effectively through this information space you need to understand 
+what programming is all about. By the end of this class you will not only be able to talk to the computer 
+geeks you have to deal with at work, but you will also be able to design and build prototype applications. 
+If, while gazing at your smartphone or surfing the web, you have ever thought "why hasn't someone done that, 
+you'll have the tools to make it happen!
+<p>
+<h3 style="color:darkorchid">No programming background necessary!</h3>
+<p>
+Though we cover a lot of ground, we start at point zero so no prior programming experience is required or even necessary. 
+All you need is the desire to learn and a willingness to work hard. Come with those two prerequisites and you will be 
+surprised how delightfully fulfilling and useful programming can be. 
+<p>
+        <h2>
+        Contact/Meeting times
+    </h2>
+        <p>Prof. Hardeep Johar</p>
+        <p><b>Class hours</b>: M W 6pm to 9pm</p>
+<font color="darkorchid"><b>Interested?</b> Want more information?</font> 
+<ul>
+	<li>Check out the <a href="syllabus-detail">Syllabus</a> </li>
+	<li>View the <a href="content">one page course content summary</a></li>
+	<li>or email me at <a href="mailto:hjohar@stern.nyu.edu">hjohar@stern.nyu.edu</a>
+</font>
+ </body>
+ 
+ </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
